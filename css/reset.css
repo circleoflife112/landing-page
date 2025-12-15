@@ -84,6 +84,15 @@ img {
   height: auto;
 }
 
+.a11y-hidden {
+  position: absolute;
+  clip: nect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
 input {
   appearance: none;
   -webkit-appearance: none;
