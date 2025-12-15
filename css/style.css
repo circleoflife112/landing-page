@@ -1,0 +1,12 @@
+header,
+main,
+footer {
+  min-width: 390px;
+  margin: 0 auto;
+}
+
+.section-container {
+  max-width: 1280px;
+  height: auto;
+  margin: 0 auto;
+}

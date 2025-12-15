@@ -4,97 +4,157 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>랜딩페이지</title>
-    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header id="header" class="header-container">
-        <img src="./images/hodu-logo.svg" alt="호두 로고" class="hodu-logo"></img>
-        <nav class="btn-nav-container">
-          <ul class="btn-nav">
-            <li class="hambergur-btn"></li>
-          </ul>
+      <h1>
+        <a href="">
+          <img src="./images/hodu-logo.svg" alt="호두 로고" class="hodu-logo" />
+        </a>
+      </h1>
+      <button class="hambergur-btn"></button>
+      <!-- 열리는 네비게이션 (모바일)-->
+      <aside class="menu-tab">
+        <button>></button>
+        <nav>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Support</a></li>
         </nav>
+        <button type="submit">Download</button>
+      </aside>
+      <!-- 열리는 네비게이션 (모바일) 끝 -->
     </header>
     <main>
       <section class="hero-section">
-        <h1 class="a11y-hidden">호두에 대하여</h1>
-        <p class="hero-title">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellat ipsum nesciunt quod laudantium animi hic eum, quae beatae laborum a recusandae tempore at ad sed perferendis reiciendis. Voluptas, enim!</p>
+        <h2 class="a11y-hidden">호두에 대하여</h2>
+        <p class="hero-title">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+          repellat ipsum nesciunt quod laudantium animi hic eum, quae beatae
+          laborum a recusandae tempore at ad sed perferendis reiciendis.
+          Voluptas, enim!
+        </p>
         <button>Download</button>
-        <img src="./images/hodu-with-box.png" alt="박스를 쓰고 있는 고양이 호두">
+        <img
+          src="./images/hodu-with-box.png"
+          alt="박스를 쓰고 있는 고양이 호두"
+        />
       </section>
       <section class="section-container">
-        <h1 class="a11y-hidden">호두의 일상</h1>
+        <h2 class="a11y-hidden">호두의 일상</h2>
         <section class="section-feature-1">
-          <h2 class="a11y-hidden">호두의 아침</h2>
+          <h3 class="a11y-hidden">호두의 아침</h3>
           <div class="first-content-box">
-            <p class="first-content-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            <p>Lorem ipsum dolor sit amet, </p>
+            <p class="first-content-title">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <p>Lorem ipsum dolor sit amet,</p>
           </div>
-          <img src="./images/cat-hodu1.png" alt="기지개를 켜는 고양이 호두">
+          <img src="./images/cat-hodu1.png" alt="기지개를 켜는 고양이 호두" />
         </section>
         <section class="section-feature-2">
-          <h2>호두의 다양한 모습</h2>
+          <h3>호두의 다양한 모습</h3>
           <header>
             <h3>dummy text of the printing and dummy</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nesciunt, quibusdam accusantium magnam ipsum </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
+              nesciunt, quibusdam accusantium magnam ipsum
+            </p>
           </header>
           <div class="card-grid">
-            <img src="./images/cat-hodu2.png" alt="스툴에 올라가 있는 고양이 호두">
-            <img src="./images/cat-hodu3.png" alt="호두의 뒷모습">
-            <img src="./images/cat-hodu4.png" alt="응시하는 호두">
+            <ul>
+              <li>
+                <img
+                  src="./images/cat-hodu2.png"
+                  alt="스툴에 올라가 있는 고양이 호두"
+                />
+              </li>
+              <li>
+                <img src="./images/cat-hodu3.png" alt="호두의 뒷모습" />
+              </li>
+              <li>
+                <img src="./images/cat-hodu4.png" alt="응시하는 호두" />
+              </li>
+            </ul>
           </div>
           <footer class="feature-footer">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ab quod id architecto a modi quidem esse! Repellat, amet</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Doloremque ab quod id architecto a modi quidem esse! Repellat,
+              amet
+            </p>
             <button>Learn More</button>
           </footer>
         </section>
         <section class="section-feature-3">
-          <h2 class="a11y-hidden">호두 블로그 구독하기</h2>
+          <h3 class="a11y-hidden">호두 블로그 구독하기</h3>
           <article class="newsletter-content">
             <h3>Subscribe to our Blog Post</h3>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam dolorem ad modi praesentium mollitia iusto veritatis alias maxime </p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+              Quibusdam dolorem ad modi praesentium mollitia iusto veritatis
+              alias maxime
+            </p>
           </article>
           <form action="post">
             <label for="enter-email">
-              <input type="email" id="enter-email" name="email" placeholder="Enter your e-mail address">
+              <input
+                type="email"
+                id="enter-email"
+                name="email"
+                placeholder="Enter your e-mail address"
+              />
             </label>
             <button type="submit">Subscribe</button>
           </form>
           <!-- 모달창 시작 -->
           <aside class="subs-modal hidden">
-            <h3 class="a11y-hidden">구독 감사 모달</h3>
-            <img src="./images/cat-hodu-face.png" alt="왠지 수줍어진 고양이 호두 얼굴">
+            <h4 class="a11y-hidden">구독 감사 모달</h4>
+            <img
+              src="./images/cat-hodu-face.png"
+              alt="왠지 수줍어진 고양이 호두 얼굴"
+            />
             <p>Thank you!</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores minima eum dolorem </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores
+              minima eum dolorem
+            </p>
             <button class="love-hodu-btn">OK! I Love HODU</button>
           </aside>
           <!-- 모달창 끝 -->
         </section>
       </section>
+
+      <!-- 상단 이동 버튼 들어갈 곳-->
     </main>
     <footer>
       <section class="left-layer">
-        <img src="./images/hodu-logo.svg" alt="호두 로고">
+        <h2 class="a11y-hidden">sns 링크 모음</h2>
+        <img src="./images/hodu-logo.svg" alt="호두 로고" />
         <ul class="social-icons">
           <li>
             <a href="#">
-              <img src="./images/icon-blog.png" alt="블로그로 가기">
+              <img src="./images/icon-blog.png" alt="블로그로 가기" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-insta.png" alt="인스타그램으로 가기">
+              <img src="./images/icon-insta.png" alt="인스타그램으로 가기" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-facebook.png" alt="페이스북으로 가기">
+              <img src="./images/icon-facebook.png" alt="페이스북으로 가기" />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="./images/icon-toutube.png" alt="유튜브로 가기">
+              <img src="./images/icon-toutube.png" alt="유튜브로 가기" />
             </a>
           </li>
         </ul>
