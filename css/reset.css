@@ -1,0 +1,99 @@
+/* 기본 리셋 */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 폰트 */
+
+@font-face {
+  font-family: "SpokaHanSansNeo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Thin.woff")
+    format("woff");
+  font-weight: 100;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpokaHanSansNeo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Light.woff")
+    format("woff");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpokaHanSansNeo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpokaHanSansNeo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Medium.woff")
+    format("woff");
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SpokaHanSansNeo";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Bold.woff")
+    format("woff");
+  font-weight: 700;
+  font-display: swap;
+}
+
+/* 공통 스타일 */
+
+:root {
+  --background-color: #f2e9d8;
+  --point-color: #d97652;
+  --button-txt-color: #ffffff;
+  --box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.25);
+  --line-height: 2.2;
+  --input-txt-color: #767676;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: "SpokaHanSansNeo", sans-serif;
+  font-size: 1.6;
+  line-height: var(--line-height);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+input {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  color: #ffffff;
+}
+
+button {
+  cursor: pointer;
+  padding: 10px 24px;
+  border: none;
+  background-color: var(--point-color);
+}
