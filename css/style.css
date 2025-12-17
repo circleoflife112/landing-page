@@ -44,23 +44,11 @@ footer {
 }
 
 .hambergur-btn span:nth-child(2) {
-  content: "";
-  width: 24px;
-  height: 2px;
-  background-color: #263140;
-  position: absolute;
   top: 8px;
-  left: 0;
 }
 
 .hambergur-btn span:nth-child(3) {
-  content: "";
-  width: 24px;
-  height: 2px;
-  background-color: #263140;
-  position: absolute;
   top: 16px;
-  left: 0;
 }
 
 .menu-tab {
@@ -70,6 +58,8 @@ footer {
 /* header end */
 
 /* main start */
+
+/* hero section */
 
 .hero-section {
   margin: 0 auto;
@@ -92,7 +82,7 @@ footer {
 .hero-title {
   font-size: 2.4rem;
   font-weight: 700;
-  line-height: 1.8;
+  line-height: var(--line-height);
 }
 
 .description {
@@ -106,8 +96,101 @@ footer {
   object-fit: contain;
 }
 
+/* section container */
+
 .section-container {
   max-width: 1280px;
   height: auto;
   margin: 0 auto;
+  padding: 4rem 3.2rem;
+  padding-bottom: 0;
+}
+
+.section-container > section {
+  margin-bottom: 60px;
+}
+
+.section-container img {
+  box-shadow: var(--box-shadow);
+  border-radius: 18px;
+}
+
+/* /* section-feature-1 */
+
+.section-feature-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.section-feature-1 .first-content-title {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: var(--line-height);
+  margin-bottom: 1.6rem;
+}
+
+.section-feature-1 p:nth-child(2) {
+  font-size: 1.4rem;
+  line-height: var(--line-height);
+}
+
+/* /* section-feature-2 */
+
+.section-feature-2 header,
+.section-feature-2 .card-grid {
+  margin-bottom: 50px;
+}
+
+.section-feature-2 header {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.section-feature-2 header h4 {
+  font-size: 2.4rem;
+  color: var(--point-color);
+  line-height: var(--line-height);
+}
+
+.section-feature-2 p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+
+.section-feature-2 header p strong {
+  color: var(--point-color);
+}
+
+.card-grid {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow-x: auto;
+  flex-wrap: nowrap;
+}
+
+.card-grid ul {
+  display: flex;
+  gap: 20px;
+}
+
+.card-grid ul li {
+  width: 100%;
+  height: 100%;
+}
+
+.card-grid ul li img {
+  width: 260px;
+  height: 260px;
+}
+
+.feature-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 22px;
 }
