@@ -103,6 +103,9 @@ input {
 button {
   cursor: pointer;
   padding: 10px 24px;
+  width: max-content;
   border: none;
   background-color: var(--point-color);
+  color: var(--button-txt-color);
+  border-radius: 40px;
 }

@@ -10,36 +10,44 @@
   <body>
     <header id="header" class="header-container">
       <h1>
-        <a href="">
+        <a href="#">
           <img src="./images/hodu-logo.svg" alt="호두 로고" class="hodu-logo" />
         </a>
       </h1>
-      <button class="hambergur-btn"></button>
+      <button class="hambergur-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
       <!-- 열리는 네비게이션 (모바일)-->
-      <aside class="menu-tab">
+
+      <!-- aside 대신 nav 로 바꾸면 어떻겠냐는 피드백 -->
+      <nav class="menu-tab">
         <button>></button>
-        <nav>
+        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Support</a></li>
-        </nav>
+        </ul>
         <button type="submit">Download</button>
-      </aside>
+      </nav>
       <!-- 열리는 네비게이션 (모바일) 끝 -->
     </header>
     <main>
       <section class="hero-section">
         <h2 class="a11y-hidden">호두에 대하여</h2>
-        <p class="hero-title">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
-          repellat ipsum nesciunt quod laudantium animi hic eum, quae beatae
-          laborum a recusandae tempore at ad sed perferendis reiciendis.
-          Voluptas, enim!
-        </p>
-        <button>Download</button>
+        <div class="hero-content">
+          <p class="hero-title">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+          <p class="description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta
+            repellat ipsum nesciunt quod laudantium animi hic eum, quae beatae
+            laborum a recusandae tempore at ad sed perferendis reiciendis.
+            Voluptas, enim!
+          </p>
+          <button>Download</button>
+        </div>
         <img
           src="./images/hodu-with-box.png"
           alt="박스를 쓰고 있는 고양이 호두"
@@ -49,13 +57,13 @@
         <h2 class="a11y-hidden">호두의 일상</h2>
         <section class="section-feature-1">
           <h3 class="a11y-hidden">호두의 아침</h3>
+          <img src="./images/cat-hodu1.png" alt="기지개를 켜는 고양이 호두" />
           <div class="first-content-box">
             <p class="first-content-title">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
             <p>Lorem ipsum dolor sit amet,</p>
           </div>
-          <img src="./images/cat-hodu1.png" alt="기지개를 켜는 고양이 호두" />
         </section>
         <section class="section-feature-2">
           <h3>호두의 다양한 모습</h3>
@@ -131,6 +139,7 @@
       </section>
 
       <!-- 상단 이동 버튼 들어갈 곳-->
+      <button class="arrow-up"></button>
     </main>
     <footer>
       <section class="left-layer">
