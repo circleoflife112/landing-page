@@ -245,7 +245,7 @@ footer {
   width: 300px;
   height: 300px;
   margin: 0 auto;
-  padding: 0 60px;
+  padding: 0 50px;
   text-align: center;
   background-color: #f2e9d8;
   background-image: url(../images/modal-background.png);
@@ -255,21 +255,68 @@ footer {
   align-content: center;
   border-radius: 30px;
   box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
+
+  /* hidden */
+  /* display: none; */
 }
 
 .subs-modal img {
   width: 60px;
   height: auto;
+  margin-bottom: 20px;
   box-shadow: none;
   overflow: visible;
+}
+
+.subs-modal p {
+  font-size: 1.4rem;
+  line-height: 1.6;
 }
 
 .subs-modal .thankyou {
   font-size: 2.4rem;
   color: var(--point-color);
   font-weight: 600;
+  line-height: 1.8;
 }
 
-.subs-modal p:nth-child(2) {
+.subs-modal button {
+  margin-top: 26px;
+  margin-bottom: 0;
+}
+
+/* footer */
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+
+.left-layer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-layer .footer-logo {
+  width: 112px;
+  height: auto;
+  object-fit: contain;
+}
+
+.left-layer ul {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-nav ul {
+  color: #767676;
+}
+
+.footer-nav ul li {
+  margin: 10px 0;
+  text-align: end;
   font-size: 1.4rem;
 }
