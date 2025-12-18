@@ -58,6 +58,20 @@ footer {
 /* header end */
 
 /* main start */
+main {
+  position: relative;
+}
+
+.hodu-background {
+  position: absolute;
+  width: 100%;
+  min-height: 240px;
+  max-height: 360px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  object-fit: cover;
+}
 
 /* hero section */
 
@@ -104,7 +118,7 @@ footer {
   margin: 0 auto;
   padding: 4rem 3.2rem;
   padding-bottom: 0;
-  background: url("../images/hodu-background.png") no-repeat bottom / 100% 240px;
+  position: relative;
 }
 
 .section-container > section {
@@ -257,7 +271,7 @@ footer {
   box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
 
   /* hidden */
-  /* display: none; */
+  display: none;
 }
 
 .subs-modal img {
@@ -283,6 +297,24 @@ footer {
 .subs-modal button {
   margin-top: 26px;
   margin-bottom: 0;
+}
+
+/* arrow-up btn */
+.arrow-up {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: url(../images/scroll-up-btn.png) no-repeat center;
+  background-color: #ffffff;
+  border: solid 1px #c4c4c4;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  transition: all 0.2 ease;
+}
+
+.arrow-up:hover {
+  background-image: url(../images/scroll-up-hover.png);
 }
 
 /* footer */
