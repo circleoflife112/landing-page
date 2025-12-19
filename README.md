@@ -6,6 +6,10 @@
 
 ![작업 일정](./readme-img/timeline.png)
 
+## 파일 구조
+
+![파일 구조](./readme-img/files.png)
+
 ## 구현 포인트
 
 ### 시멘틱 마크업
