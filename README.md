@@ -23,8 +23,8 @@
 
 ### 미디어 쿼리 :root 작성
 
-!(./readme-img/gpt1.png)
+![미디어 쿼리 루트 활용](./readme-img/gpt1.png)
 
 ## 에러
 
-!(./readme-img/gpt2.png)
+![에러 사항](./readme-img/gpt2.png)
