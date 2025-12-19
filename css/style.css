@@ -363,7 +363,6 @@ main {
   position: fixed;
   bottom: 24px;
   right: 24px;
-  transition: all 0.2 ease;
 
   display: none;
 }
