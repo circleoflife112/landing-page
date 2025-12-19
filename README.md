@@ -2,23 +2,29 @@
 
 랜딩페이지 반응형 구현
 
-## 느낀점 (수확)
+## 구현 일정
+
+![작업 일정](./readme-img/timeline.png)
 
 ## 구현 포인트
 
-display : flex 를 적극 활용해 반응형 페이지에 용이함
+### 시멘틱 마크업
 
-## 구현 과정
+1.
 
-### 모바일 화면 구성
+### 접근성
+
+1. 적절한 heading 테크 사용
+2. 스크린리더 대응 alt 텍스트 처리
+
+### 모바일 퍼스트 레이아웃 구성
 
 ### 미디어 쿼리 (media query) - 3단계 화면 구성
 
-자연스러운 반응형을 위해 3단계로 구성
-`@media` 자체에 `:root` 속성 (ex 컨테이너 요소의 공통 `padding`값) 을 지정 - 일관성 있는 레이아웃 완성
-화면 크기에 따른 `font-size` 변화나 `flex-direction` 위주의 작업
+### 미디어 쿼리 :root 작성
 
-## 에러 해결
+!(./readme-img/gpt1.png)
 
-1. 모바일 화면 fixed nav : position: absolute , top: 100% > position: fixed 로 수정
-2. section container 배경 문제 : 자체에 1280px 을 부여할 경우 background color까지 1280px 에 맞춰지는 현상
+## 에러
+
+!(./readme-img/gpt2.png)
