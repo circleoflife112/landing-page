@@ -34,7 +34,6 @@ footer {
 
 .hambergur-btn {
   width: 24px;
-  height: auto;
   padding: 0;
   margin: 0;
   border-radius: 0;
@@ -308,6 +307,7 @@ main {
 
 /* /* modal */
 
+/* dialogue 태그로 바꾼 후 노출이 되지 않음 */
 .subs-modal {
   width: 300px;
   height: 300px;
@@ -329,7 +329,6 @@ main {
 
 .subs-modal img {
   width: 60px;
-  height: auto;
   margin-bottom: 20px;
   box-shadow: none;
   overflow: visible;
@@ -498,7 +497,6 @@ footer {
 
   .hero-section img {
     max-width: 400px;
-    height: auto;
     object-fit: contain;
   }
 
@@ -592,7 +590,6 @@ footer {
 
   .left-layer .footer-logo {
     width: 112px;
-    height: auto;
     object-fit: contain;
   }
 
